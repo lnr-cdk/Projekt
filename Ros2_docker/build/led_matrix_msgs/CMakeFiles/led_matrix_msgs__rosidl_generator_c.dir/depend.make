@@ -1,0 +1,2 @@
+# Empty dependencies file for led_matrix_msgs__rosidl_generator_c.
+# This may be replaced when dependencies are built.

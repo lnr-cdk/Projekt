@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/ros2_ws/build/led_matrix_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_pub -- -j8 -l8
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target led_matrix_pub[0m
+[0.234s] [ 50%] [32mBuilding CXX object CMakeFiles/led_matrix_pub.dir/src/led_matrix_pub.cpp.o[0m
+[3.771s] [100%] [32m[1mLinking CXX executable led_matrix_pub[0m
+[4.007s] [100%] Built target led_matrix_pub
+[4.021s] Invoked command in '/ros2_ws/build/led_matrix_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_pub -- -j8 -l8
+[4.035s] Invoking command in '/ros2_ws/build/led_matrix_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/led_matrix_pub
+[4.045s] -- Install configuration: ""
+[4.046s] -- Installing: /ros2_ws/install/led_matrix_pub/lib/led_matrix_pub/led_matrix_pub
+[4.059s] -- Set runtime path of "/ros2_ws/install/led_matrix_pub/lib/led_matrix_pub/led_matrix_pub" to ""
+[4.060s] -- Installing: /ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/package_run_dependencies/led_matrix_pub
+[4.062s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/parent_prefix_path/led_matrix_pub
+[4.062s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/ament_prefix_path.sh
+[4.063s] -- Installing: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/ament_prefix_path.dsv
+[4.065s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/path.sh
+[4.066s] -- Installing: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/path.dsv
+[4.068s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.bash
+[4.068s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.sh
+[4.069s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.zsh
+[4.069s] -- Installing: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.dsv
+[4.071s] -- Installing: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/package.dsv
+[4.074s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/packages/led_matrix_pub
+[4.074s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/cmake/led_matrix_pubConfig.cmake
+[4.074s] -- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/cmake/led_matrix_pubConfig-version.cmake
+[4.075s] -- Installing: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/package.xml
+[4.079s] Invoked command in '/ros2_ws/build/led_matrix_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/led_matrix_pub

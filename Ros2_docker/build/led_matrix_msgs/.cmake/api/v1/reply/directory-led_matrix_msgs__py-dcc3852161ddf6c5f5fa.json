@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "led_matrix_msgs__py",
+		"source" : "/ros2_ws/build/led_matrix_msgs/led_matrix_msgs__py"
+	}
+}

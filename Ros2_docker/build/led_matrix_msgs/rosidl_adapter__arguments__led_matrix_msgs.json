@@ -1,0 +1,6 @@
+{
+  "package_name": "led_matrix_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/led_matrix_msgs:msg/LedMatrix.msg"
+  ]
+}

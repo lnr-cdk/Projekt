@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from led_matrix_msgs/msg/LedMatrix.msg
+// generated code does not contain a copyright notice
+
+
+module led_matrix_msgs {
+  module msg {
+    typedef uint8 uint8__8[8];
+    struct LedMatrix {
+      uint8__8 rows;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/ros2_ws/build/led_matrix_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_msgs -- -j8 -l8
+[0.092s] Invoked command in '/ros2_ws/build/led_matrix_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_msgs -- -j8 -l8
+[0.107s] Invoking command in '/ros2_ws/build/led_matrix_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/led_matrix_msgs
+[0.117s] -- Install configuration: ""
+[0.118s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/ament_index/resource_index/package_run_dependencies/led_matrix_msgs
+[0.118s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/ament_index/resource_index/parent_prefix_path/led_matrix_msgs
+[0.119s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/ament_prefix_path.sh
+[0.119s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/path.sh
+[0.120s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/path.dsv
+[0.121s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.bash
+[0.122s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.sh
+[0.122s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.zsh
+[0.123s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.dsv
+[0.123s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/package.dsv
+[0.124s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/ament_index/resource_index/packages/led_matrix_msgs
+[0.125s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgsConfig.cmake
+[0.126s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgsConfig-version.cmake
+[0.126s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/package.xml
+[0.131s] Invoked command in '/ros2_ws/build/led_matrix_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/led_matrix_msgs

@@ -1,0 +1,212 @@
+[0.016s] Invoking command in '/ros2_ws/build/led_matrix_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_msgs -- -j8 -l8
+[0.064s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.185s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.532s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.915s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.922s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.945s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.945s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.946s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.946s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.959s] -- Found PythonExtra: .so  
+[0.997s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.044s] -- Added test 'lint_cmake' to check CMake code style
+[1.053s] -- Added test 'xmllint' to check XML markup files
+[1.073s] -- Configuring done
+[1.267s] -- Generating done
+[1.324s] -- Build files have been written to: /ros2_ws/build/led_matrix_msgs
+[1.346s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.354s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.366s] [  6%] Built target ament_cmake_python_copy_led_matrix_msgs
+[1.552s] running egg_info
+[1.553s] creating led_matrix_msgs.egg-info
+[1.555s] writing led_matrix_msgs.egg-info/PKG-INFO
+[1.557s] writing dependency_links to led_matrix_msgs.egg-info/dependency_links.txt
+[1.569s] writing top-level names to led_matrix_msgs.egg-info/top_level.txt
+[1.571s] writing manifest file 'led_matrix_msgs.egg-info/SOURCES.txt'
+[1.577s] reading manifest file 'led_matrix_msgs.egg-info/SOURCES.txt'
+[1.585s] writing manifest file 'led_matrix_msgs.egg-info/SOURCES.txt'
+[1.626s] [  6%] Built target ament_cmake_python_build_led_matrix_msgs_egg
+[1.631s] [  6%] Built target led_matrix_msgs__cpp
+[1.653s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.655s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.656s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.662s] [ 19%] [32mBuilding C object CMakeFiles/led_matrix_msgs__rosidl_generator_c.dir/rosidl_generator_c/led_matrix_msgs/msg/detail/led_matrix__functions.c.o[0m
+[1.880s] [ 22%] [32m[1mLinking C shared library libled_matrix_msgs__rosidl_generator_c.so[0m
+[1.971s] [ 22%] Built target led_matrix_msgs__rosidl_generator_c
+[2.000s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.002s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.003s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.068s] [ 35%] [32mBuilding CXX object CMakeFiles/led_matrix_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/led_matrix_msgs/msg/led_matrix__type_support.cpp.o[0m
+[2.095s] [ 38%] [32mBuilding CXX object CMakeFiles/led_matrix_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/led_matrix_msgs/msg/detail/led_matrix__type_support.cpp.o[0m
+[2.113s] [ 41%] [32mBuilding CXX object CMakeFiles/led_matrix_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/led_matrix_msgs/msg/detail/dds_fastrtps/led_matrix__type_support.cpp.o[0m
+[2.409s] [ 45%] [32mBuilding CXX object CMakeFiles/led_matrix_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/led_matrix_msgs/msg/led_matrix__type_support.cpp.o[0m
+[2.447s] [ 48%] [32mBuilding CXX object CMakeFiles/led_matrix_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/led_matrix_msgs/msg/detail/led_matrix__type_support_c.cpp.o[0m
+[2.473s] [ 51%] [32mBuilding C object CMakeFiles/led_matrix_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/led_matrix_msgs/msg/detail/led_matrix__type_support.c.o[0m
+[2.514s] [ 54%] [32m[1mLinking CXX shared library libled_matrix_msgs__rosidl_typesupport_c.so[0m
+[2.574s] [ 58%] [32m[1mLinking C shared library libled_matrix_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.612s] [ 58%] Built target led_matrix_msgs__rosidl_typesupport_c
+[2.641s] [ 58%] Built target led_matrix_msgs__rosidl_typesupport_introspection_c
+[2.740s] [ 61%] [32m[1mLinking CXX shared library libled_matrix_msgs__rosidl_typesupport_cpp.so[0m
+[2.813s] [ 61%] Built target led_matrix_msgs__rosidl_typesupport_cpp
+[2.880s] [ 64%] [32m[1mLinking CXX shared library libled_matrix_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.882s] [ 67%] [32m[1mLinking CXX shared library libled_matrix_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.987s] [ 67%] Built target led_matrix_msgs__rosidl_typesupport_introspection_cpp
+[2.988s] [ 67%] Built target led_matrix_msgs__rosidl_typesupport_fastrtps_cpp
+[2.991s] [ 70%] [32m[1mLinking CXX shared library libled_matrix_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.075s] [ 70%] Built target led_matrix_msgs__rosidl_typesupport_fastrtps_c
+[3.093s] [ 70%] Built target led_matrix_msgs
+[3.113s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.354s] [ 74%] Built target led_matrix_msgs__py
+[3.372s] [ 77%] [32mBuilding C object CMakeFiles/led_matrix_msgs__rosidl_generator_py.dir/rosidl_generator_py/led_matrix_msgs/msg/_led_matrix_s.c.o[0m
+[3.493s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/led_matrix_msgs/libled_matrix_msgs__rosidl_generator_py.so[0m
+[3.526s] [ 80%] Built target led_matrix_msgs__rosidl_generator_py
+[3.548s] [ 90%] [32mBuilding C object CMakeFiles/led_matrix_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/led_matrix_msgs/_led_matrix_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.548s] [ 90%] [32mBuilding C object CMakeFiles/led_matrix_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/led_matrix_msgs/_led_matrix_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.549s] [ 90%] [32mBuilding C object CMakeFiles/led_matrix_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/led_matrix_msgs/_led_matrix_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.652s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[3.685s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[3.687s] [100%] [32m[1mLinking C shared library rosidl_generator_py/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[3.687s] [100%] Built target led_matrix_msgs__rosidl_typesupport_c__pyext
+[3.722s] [100%] Built target led_matrix_msgs__rosidl_typesupport_introspection_c__pyext
+[3.723s] [100%] Built target led_matrix_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.738s] Invoked command in '/ros2_ws/build/led_matrix_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_msgs -- -j8 -l8
+[3.747s] Invoking command in '/ros2_ws/build/led_matrix_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/led_matrix_msgs
+[3.753s] -- Install configuration: ""
+[3.754s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/ament_index/resource_index/rosidl_interfaces/led_matrix_msgs
+[3.756s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs
+[3.758s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg
+[3.759s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.761s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/led_matrix.h
+[3.763s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail
+[3.764s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__struct.h
+[3.766s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__functions.h
+[3.768s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__functions.c
+[3.770s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__type_support.h
+[3.772s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/library_path.sh
+[3.774s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/library_path.dsv
+[3.776s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_generator_c.so
+[3.779s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_generator_c.so" to ""
+[3.779s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs
+[3.779s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg
+[3.780s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail
+[3.781s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__rosidl_typesupport_fastrtps_c.h
+[3.782s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.785s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_fastrtps_c.so
+[3.787s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.787s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs
+[3.788s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg
+[3.789s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail
+[3.789s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__type_support.c
+[3.791s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__rosidl_typesupport_introspection_c.h
+[3.793s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.795s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_introspection_c.so
+[3.797s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.798s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_c.so
+[3.800s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_c.so" to ""
+[3.800s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs
+[3.801s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg
+[3.801s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/led_matrix.hpp
+[3.804s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail
+[3.804s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__traits.hpp
+[3.806s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__type_support.hpp
+[3.808s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__struct.hpp
+[3.810s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__builder.hpp
+[3.812s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.814s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs
+[3.814s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg
+[3.815s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.817s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail
+[3.818s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__rosidl_typesupport_fastrtps_cpp.hpp
+[3.819s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/dds_fastrtps
+[3.821s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.823s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.824s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs
+[3.824s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg
+[3.825s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail
+[3.826s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__type_support.cpp
+[3.828s] -- Installing: /ros2_ws/install/led_matrix_msgs/include/led_matrix_msgs/led_matrix_msgs/msg/detail/led_matrix__rosidl_typesupport_introspection_cpp.hpp
+[3.830s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_introspection_cpp.so
+[3.833s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.833s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_cpp.so
+[3.836s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_typesupport_cpp.so" to ""
+[3.836s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/pythonpath.sh
+[3.838s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/pythonpath.dsv
+[3.840s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs-0.0.0-py3.10.egg-info
+[3.842s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.844s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.846s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.848s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.852s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs
+[3.853s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/_led_matrix_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.856s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.858s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/_led_matrix_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.860s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/msg
+[3.861s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/msg/_led_matrix_s.c
+[3.863s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/msg/__init__.py
+[3.865s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/msg/_led_matrix.py
+[3.867s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/libled_matrix_msgs__rosidl_generator_py.so
+[3.869s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/_led_matrix_msgs_s.ep.rosidl_typesupport_c.c
+[3.873s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.877s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/__init__.py
+[3.881s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.921s] Listing '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs'...
+[3.922s] Compiling '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/__init__.py'...
+[3.922s] Listing '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/msg'...
+[3.922s] Compiling '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/msg/__init__.py'...
+[3.923s] Compiling '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/msg/_led_matrix.py'...
+[3.923s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.925s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[3.926s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.929s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[3.929s] -- Installing: /ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.932s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages/led_matrix_msgs/led_matrix_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[3.933s] -- Installing: /ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_generator_py.so
+[3.936s] -- Set runtime path of "/ros2_ws/install/led_matrix_msgs/lib/libled_matrix_msgs__rosidl_generator_py.so" to ""
+[3.936s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/msg/LedMatrix.idl
+[3.938s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/msg/LedMatrix.msg
+[3.940s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/ament_index/resource_index/package_run_dependencies/led_matrix_msgs
+[3.943s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/ament_index/resource_index/parent_prefix_path/led_matrix_msgs
+[3.945s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/ament_prefix_path.sh
+[3.945s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/ament_prefix_path.dsv
+[3.947s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/path.sh
+[3.947s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/environment/path.dsv
+[3.949s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.bash
+[3.950s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.sh
+[3.952s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.zsh
+[3.952s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/local_setup.dsv
+[3.954s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/package.dsv
+[3.956s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/ament_index/resource_index/packages/led_matrix_msgs
+[3.957s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_generator_cExport.cmake
+[3.958s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.961s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.962s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.964s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.967s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.969s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_cExport.cmake
+[3.971s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.973s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_generator_cppExport.cmake
+[3.976s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.978s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.980s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.982s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.984s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_cppExport.cmake
+[3.986s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.989s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_generator_pyExport.cmake
+[3.990s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/export_led_matrix_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.992s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/rosidl_cmake-extras.cmake
+[3.994s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.996s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.998s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.000s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.002s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.004s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.006s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgsConfig.cmake
+[4.007s] -- Up-to-date: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake/led_matrix_msgsConfig-version.cmake
+[4.008s] -- Installing: /ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/package.xml
+[4.014s] Invoked command in '/ros2_ws/build/led_matrix_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/led_matrix_msgs

@@ -1,0 +1,10 @@
+/ros2_ws/build/led_matrix_pub/CMakeFiles/uninstall.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/led_matrix_pub_uninstall.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/led_matrix_pub.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/test.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/edit_cache.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/rebuild_cache.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/list_install_components.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/install.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/install/local.dir
+/ros2_ws/build/led_matrix_pub/CMakeFiles/install/strip.dir

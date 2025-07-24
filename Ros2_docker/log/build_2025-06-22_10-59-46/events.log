@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'led_matrix_msgs'}
+[0.000382] (led_matrix_pub) JobQueued: {'identifier': 'led_matrix_pub', 'dependencies': OrderedDict([('led_matrix_msgs', '/ros2_ws/install/led_matrix_msgs')])}
+[0.001348] (led_matrix_pub) JobStarted: {'identifier': 'led_matrix_pub'}
+[0.018607] (led_matrix_pub) JobProgress: {'identifier': 'led_matrix_pub', 'progress': 'cmake'}
+[0.019972] (led_matrix_pub) JobProgress: {'identifier': 'led_matrix_pub', 'progress': 'build'}
+[0.022291] (led_matrix_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/led_matrix_pub', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/build/led_matrix_pub', 'env': OrderedDict([('HOSTNAME', '72e01c8a7fd8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/led_matrix_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/led_matrix_pub:/ros2_ws/install/led_matrix_msgs:/opt/ros/humble'), ('PWD', '/ros2_ws/build/led_matrix_pub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/led_matrix_msgs:/ros2_ws/install/led_matrix_pub:/opt/ros/humble')]), 'shell': False}
+[0.098477] (-) TimerEvent: {}
+[0.102666] (led_matrix_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target led_matrix_pub\x1b[0m\n'}
+[0.198888] (-) TimerEvent: {}
+[0.202957] (led_matrix_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/led_matrix_pub.dir/src/led_matrix_pub.cpp.o\x1b[0m\n'}
+[0.299857] (-) TimerEvent: {}
+[0.400855] (-) TimerEvent: {}
+[0.501910] (-) TimerEvent: {}
+[0.611886] (-) TimerEvent: {}
+[0.718871] (-) TimerEvent: {}
+[0.825876] (-) TimerEvent: {}
+[0.928856] (-) TimerEvent: {}
+[1.031867] (-) TimerEvent: {}
+[1.132876] (-) TimerEvent: {}
+[1.233884] (-) TimerEvent: {}
+[1.334879] (-) TimerEvent: {}
+[1.435866] (-) TimerEvent: {}
+[1.536876] (-) TimerEvent: {}
+[1.637850] (-) TimerEvent: {}
+[1.740870] (-) TimerEvent: {}
+[1.841877] (-) TimerEvent: {}
+[1.942873] (-) TimerEvent: {}
+[2.043870] (-) TimerEvent: {}
+[2.144878] (-) TimerEvent: {}
+[2.245863] (-) TimerEvent: {}
+[2.346875] (-) TimerEvent: {}
+[2.447882] (-) TimerEvent: {}
+[2.550871] (-) TimerEvent: {}
+[2.651860] (-) TimerEvent: {}
+[2.752856] (-) TimerEvent: {}
+[2.853876] (-) TimerEvent: {}
+[2.954868] (-) TimerEvent: {}
+[3.055878] (-) TimerEvent: {}
+[3.156859] (-) TimerEvent: {}
+[3.261878] (-) TimerEvent: {}
+[3.365604] (-) TimerEvent: {}
+[3.468890] (-) TimerEvent: {}
+[3.569907] (-) TimerEvent: {}
+[3.601530] (led_matrix_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable led_matrix_pub\x1b[0m\n'}
+[3.670926] (-) TimerEvent: {}
+[3.780883] (-) TimerEvent: {}
+[3.804262] (led_matrix_pub) StdoutLine: {'line': b'[100%] Built target led_matrix_pub\n'}
+[3.820543] (led_matrix_pub) CommandEnded: {'returncode': 0}
+[3.822834] (led_matrix_pub) JobProgress: {'identifier': 'led_matrix_pub', 'progress': 'install'}
+[3.834657] (led_matrix_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/led_matrix_pub'], 'cwd': '/ros2_ws/build/led_matrix_pub', 'env': OrderedDict([('HOSTNAME', '72e01c8a7fd8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/led_matrix_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/led_matrix_pub:/ros2_ws/install/led_matrix_msgs:/opt/ros/humble'), ('PWD', '/ros2_ws/build/led_matrix_pub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/led_matrix_msgs:/ros2_ws/install/led_matrix_pub:/opt/ros/humble')]), 'shell': False}
+[3.845416] (led_matrix_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.846373] (led_matrix_pub) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/led_matrix_pub/lib/led_matrix_pub/led_matrix_pub\n'}
+[3.858009] (led_matrix_pub) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/led_matrix_pub/lib/led_matrix_pub/led_matrix_pub" to ""\n'}
+[3.858716] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/package_run_dependencies/led_matrix_pub\n'}
+[3.859499] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/parent_prefix_path/led_matrix_pub\n'}
+[3.860013] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/ament_prefix_path.sh\n'}
+[3.860386] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/ament_prefix_path.dsv\n'}
+[3.860693] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/path.sh\n'}
+[3.861041] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/path.dsv\n'}
+[3.861532] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.bash\n'}
+[3.861828] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.sh\n'}
+[3.862081] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.zsh\n'}
+[3.862390] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.dsv\n'}
+[3.863068] (led_matrix_pub) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/package.dsv\n'}
+[3.865044] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/packages/led_matrix_pub\n'}
+[3.865465] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/cmake/led_matrix_pubConfig.cmake\n'}
+[3.865828] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/cmake/led_matrix_pubConfig-version.cmake\n'}
+[3.866122] (led_matrix_pub) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/led_matrix_pub/share/led_matrix_pub/package.xml\n'}
+[3.868090] (led_matrix_pub) CommandEnded: {'returncode': 0}
+[3.881832] (-) TimerEvent: {}
+[3.896859] (led_matrix_pub) JobEnded: {'identifier': 'led_matrix_pub', 'rc': 0}
+[3.898680] (-) EventReactorShutdown: {}

@@ -1,0 +1,77 @@
+[0.028s] Invoking command in '/ros2_ws/build/led_matrix_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_pub -- -j8 -l8
+[0.079s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.198s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.261s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.272s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.284s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.388s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.393s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.522s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.543s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.596s] -- Looking for pthread.h
+[0.730s] -- Looking for pthread.h - found
+[0.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.847s] -- Found Threads: TRUE  
+[0.924s] -- Found led_matrix_msgs: 0.0.0 (/ros2_ws/install/led_matrix_msgs/share/led_matrix_msgs/cmake)
+[0.951s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.027s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.028s] -- Configured cppcheck include dirs: 
+[1.028s] -- Configured cppcheck exclude dirs and/or files: 
+[1.030s] -- Added test 'lint_cmake' to check CMake code style
+[1.036s] -- Added test 'uncrustify' to check C / C++ code style
+[1.036s] -- Configured uncrustify additional arguments: 
+[1.037s] -- Added test 'xmllint' to check XML markup files
+[1.041s] -- Configuring done
+[1.077s] -- Generating done
+[1.096s] -- Build files have been written to: /ros2_ws/build/led_matrix_pub
+[1.142s] [ 50%] [32mBuilding CXX object CMakeFiles/led_matrix_pub.dir/src/led_matrix_pub.cpp.o[0m
+[3.553s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[3.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.556s]                  from [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:6[m[K:
+[3.556s] /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp: In instantiation of ‘[01m[Kclass rclcpp::Publisher<led_matrix_msgs__msg__LedMatrix>[m[K’:
+[3.556s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:35:53:[m[K   required from here
+[3.557s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: given message type is not compatible with ROS and cannot be used with a Publisher
+[3.557s]    81 |     rclcpp::is_ros_compatible_type<MessageT>::[01;31m[Kvalue[m[K,
+[3.557s]       |                                               [01;31m[K^~~~~[m[K
+[3.557s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::is_ros_compatible_type<led_matrix_msgs__msg__LedMatrix>::value[m[K’ evaluates to false
+[3.580s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:[m[K In constructor ‘[01m[KLedMatrixPub::LedMatrixPub()[m[K’:
+[3.580s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_matrix_msgs[m[K’ was not declared in this scope
+[3.581s]    22 |     publisher_ = this->create_publisher<[01;31m[Kled_matrix_msgs[m[K::msg::LedMatrix>("/led_matrix", 10);
+[3.581s]       |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.581s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.581s]    22 |     publisher_ = this->[01;31m[Kcreate_publisher<led_matrix_msgs::msg::LedMatrix>[m[K("/led_matrix", 10);
+[3.581s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.581s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLedMatrixPub::create_publisher<<expression error> >(const char [12], int)[m[K’
+[3.582s]    22 |     publisher_ = [01;31m[Kthis->create_publisher<led_matrix_msgs::msg::LedMatrix>("/led_matrix", 10)[m[K;
+[3.582s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[3.582s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.583s]                  from [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:6[m[K:
+[3.583s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.583s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[3.583s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.584s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.584s]    22 |     publisher_ = [01;31m[Kthis->create_publisher<led_matrix_msgs::msg::LedMatrix>("/led_matrix", 10)[m[K;
+[3.584s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[3.587s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:[m[K In member function ‘[01m[Kvoid LedMatrixPub::input_loop()[m[K’:
+[3.587s] [01m[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:88:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_matrix_msgs[m[K’ has not been declared
+[3.587s]    88 |         auto msg = [01;31m[Kled_matrix_msgs[m[K::msg::LedMatrix);
+[3.588s]       |                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.972s] gmake[2]: *** [CMakeFiles/led_matrix_pub.dir/build.make:76: CMakeFiles/led_matrix_pub.dir/src/led_matrix_pub.cpp.o] Error 1
+[3.972s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_matrix_pub.dir/all] Error 2
+[3.977s] gmake: *** [Makefile:146: all] Error 2
+[3.980s] Invoked command in '/ros2_ws/build/led_matrix_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/led_matrix_pub -- -j8 -l8

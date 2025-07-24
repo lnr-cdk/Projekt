@@ -1,0 +1,4 @@
+source;share/led_matrix_pub/local_setup.bash
+source;share/led_matrix_pub/local_setup.dsv
+source;share/led_matrix_pub/local_setup.sh
+source;share/led_matrix_pub/local_setup.zsh

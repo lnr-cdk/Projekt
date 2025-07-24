@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000371] (-) JobUnselected: {'identifier': 'led_matrix_msgs'}
+[0.000509] (led_matrix_pub) JobQueued: {'identifier': 'led_matrix_pub', 'dependencies': OrderedDict([('led_matrix_msgs', '/ros2_ws/install/led_matrix_msgs')])}
+[0.001302] (led_matrix_pub) JobStarted: {'identifier': 'led_matrix_pub'}
+[0.018872] (led_matrix_pub) JobProgress: {'identifier': 'led_matrix_pub', 'progress': 'cmake'}
+[0.020464] (led_matrix_pub) JobProgress: {'identifier': 'led_matrix_pub', 'progress': 'build'}
+[0.022941] (led_matrix_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/led_matrix_pub', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/build/led_matrix_pub', 'env': OrderedDict([('HOSTNAME', '72e01c8a7fd8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/led_matrix_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/led_matrix_msgs:/opt/ros/humble'), ('PWD', '/ros2_ws/build/led_matrix_pub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/led_matrix_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/led_matrix_msgs:/opt/ros/humble')]), 'shell': False}
+[0.098977] (-) TimerEvent: {}
+[0.102277] (led_matrix_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target led_matrix_pub\x1b[0m\n'}
+[0.199236] (-) TimerEvent: {}
+[0.208724] (led_matrix_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/led_matrix_pub.dir/src/led_matrix_pub.cpp.o\x1b[0m\n'}
+[0.300169] (-) TimerEvent: {}
+[0.401208] (-) TimerEvent: {}
+[0.502167] (-) TimerEvent: {}
+[0.603179] (-) TimerEvent: {}
+[0.707089] (-) TimerEvent: {}
+[0.812188] (-) TimerEvent: {}
+[0.913245] (-) TimerEvent: {}
+[1.014167] (-) TimerEvent: {}
+[1.115187] (-) TimerEvent: {}
+[1.216188] (-) TimerEvent: {}
+[1.317178] (-) TimerEvent: {}
+[1.418184] (-) TimerEvent: {}
+[1.519171] (-) TimerEvent: {}
+[1.620165] (-) TimerEvent: {}
+[1.721202] (-) TimerEvent: {}
+[1.822180] (-) TimerEvent: {}
+[1.923174] (-) TimerEvent: {}
+[2.024193] (-) TimerEvent: {}
+[2.065008] (led_matrix_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.065546] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.065781] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.066001] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.068320] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.068542] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.068759] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.068989] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.069220] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.069434] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.069660] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:6\x1b[m\x1b[K:\n'}
+[2.069886] (led_matrix_pub) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Publisher<led_matrix_msgs__msg__LedMatrix>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.070114] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:35:53:\x1b[m\x1b[K   required from here\n'}
+[2.070326] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: given message type is not compatible with ROS and cannot be used with a Publisher\n'}
+[2.070543] (led_matrix_pub) StderrLine: {'line': b'   81 |     rclcpp::is_ros_compatible_type<MessageT>::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K,\n'}
+[2.070780] (led_matrix_pub) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.071007] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::is_ros_compatible_type<led_matrix_msgs__msg__LedMatrix>::value\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[2.089366] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLedMatrixPub::LedMatrixPub()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.093400] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kled_matrix_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.093632] (led_matrix_pub) StderrLine: {'line': b'   22 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kled_matrix_msgs\x1b[m\x1b[K::msg::LedMatrix>("/led_matrix", 10);\n'}
+[2.093854] (led_matrix_pub) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.094073] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.094353] (led_matrix_pub) StderrLine: {'line': b'   22 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<led_matrix_msgs::msg::LedMatrix>\x1b[m\x1b[K("/led_matrix", 10);\n'}
+[2.097326] (led_matrix_pub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.097550] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLedMatrixPub::create_publisher<<expression error> >(const char [12], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.097774] (led_matrix_pub) StderrLine: {'line': b'   22 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<led_matrix_msgs::msg::LedMatrix>("/led_matrix", 10)\x1b[m\x1b[K;\n'}
+[2.097993] (led_matrix_pub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.098309] (led_matrix_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.098605] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.098824] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.099111] (led_matrix_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:6\x1b[m\x1b[K:\n'}
+[2.099313] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.099567] (led_matrix_pub) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.099760] (led_matrix_pub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099953] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.100218] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:22:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.100407] (led_matrix_pub) StderrLine: {'line': b'   22 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<led_matrix_msgs::msg::LedMatrix>("/led_matrix", 10)\x1b[m\x1b[K;\n'}
+[2.100596] (led_matrix_pub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.100784] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LedMatrixPub::input_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.100974] (led_matrix_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/led_matrix_pub/src/led_matrix_pub.cpp:88:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kled_matrix_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.101175] (led_matrix_pub) StderrLine: {'line': b'   88 |         auto msg = \x1b[01;31m\x1b[Kled_matrix_msgs\x1b[m\x1b[K::msg::LedMatrix();\n'}
+[2.101362] (led_matrix_pub) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.130174] (-) TimerEvent: {}
+[2.234655] (-) TimerEvent: {}
+[2.339057] (-) TimerEvent: {}
+[2.441703] (-) TimerEvent: {}
+[2.445457] (led_matrix_pub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/led_matrix_pub.dir/build.make:76: CMakeFiles/led_matrix_pub.dir/src/led_matrix_pub.cpp.o] Error 1\n'}
+[2.445836] (led_matrix_pub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_matrix_pub.dir/all] Error 2\n'}
+[2.446160] (led_matrix_pub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.447767] (led_matrix_pub) CommandEnded: {'returncode': 2}
+[2.466724] (led_matrix_pub) JobEnded: {'identifier': 'led_matrix_pub', 'rc': 2}
+[2.478334] (-) EventReactorShutdown: {}

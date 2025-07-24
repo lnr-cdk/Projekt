@@ -1,0 +1,16 @@
+/ros2_ws/install/led_matrix_pub/lib/led_matrix_pub/led_matrix_pub
+/ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/package_run_dependencies/led_matrix_pub
+/ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/parent_prefix_path/led_matrix_pub
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/ament_prefix_path.sh
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/ament_prefix_path.dsv
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/path.sh
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/environment/path.dsv
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.bash
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.sh
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.zsh
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/local_setup.dsv
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/package.dsv
+/ros2_ws/install/led_matrix_pub/share/ament_index/resource_index/packages/led_matrix_pub
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/cmake/led_matrix_pubConfig.cmake
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/cmake/led_matrix_pubConfig-version.cmake
+/ros2_ws/install/led_matrix_pub/share/led_matrix_pub/package.xml
